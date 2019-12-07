@@ -1,8 +1,8 @@
 module.exports = {
   base: '/blog/',
   dest: 'docs',
-  title:'wecode 前端团队',
-  description:'致力于利用科技的力量，让孩子们学习编程的过程更轻松、更有趣！',
+  title:'Bert\'s Blog',
+  description:'执着于更高的技术追求！',
   head:[
     ['link', { rel: 'icon', href: 'favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         text: 'github',
-        link: 'https://github.com/wecode-fe'
+        link: 'https://github.com/tianbaoliu'
       },
     ],
     sidebar: {
