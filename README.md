@@ -1,4 +1,4 @@
-# wecode 前端团队技术博客
+# 技术博客
 
 ## 如何开始
 ```
@@ -16,4 +16,4 @@ npm start
 npm run pd
 ```
 访问地址：
-[https://wecode-fe.github.io/blog/](https://wecode-fe.github.io/blog/)
+[https://tianbaoliu.github.io/blog/](https://tianbaoliu.github.io/blog/)
