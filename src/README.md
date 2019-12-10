@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/logo.png
+heroImage: /img/ltbLogo.png
 actionText: 开始学习
 actionLink: /url/fe
 features:
