@@ -14,19 +14,19 @@ module.exports = {
       {
         text: '教程',
         items: [
-          { text: '环境配置', link: '/share/env'},
-          { text: 'eslint规则', link: '/share/eslint'},
-          { text: '性能优化', link: '/share/opt'},
-          { text: '深入webpack', link: '/share/webpack' },
-          { text: 'webpack随手记', link: '/share/webpack-note' },
-          { text: 'webpack配置vue', link: '/share/webpack-vue' },
-          { text: '公众号开发总结', link: '/share/wechat' },
-          { text: '深入浅出前端脚手架', link: '/share/scaffold' },
-          { text: '前端基础JS系列', link: '/share/javascript-basic' },
-          { text: '移动端性能优化(一)', link: '/share/optimize' },
-          { text: '移动端性能优化(二)', link: '/share/optimize2' },
-          { text: '移动端的那些坑(一)', link: '/share/mobile-bug' },
-          { text: 'markdown语法', link: '/share/md' },
+          { text: '环境配置', link: '/fun/env'},
+          { text: 'eslint规则', link: '/fun/eslint'},
+          { text: '性能优化', link: '/fun/opt'},
+          { text: '深入webpack', link: '/fun/webpack' },
+          { text: 'webpack随手记', link: '/fun/webpack-note' },
+          { text: 'webpack配置vue', link: '/fun/webpack-vue' },
+          { text: '公众号开发总结', link: '/fun/wechat' },
+          { text: '深入浅出前端脚手架', link: '/fun/scaffold' },
+          { text: '前端基础JS系列', link: '/fun/javascript-basic' },
+          { text: '移动端性能优化(一)', link: '/fun/optimize' },
+          { text: '移动端性能优化(二)', link: '/fun/optimize2' },
+          { text: '移动端的那些坑(一)', link: '/fun/mobile-bug' },
+          { text: 'markdown语法', link: '/fun/md' },
         ]
       },
       {
@@ -34,6 +34,17 @@ module.exports = {
         items: [
           { text: '深入skulpt', link: '/skulpt/1'},
           { text: '深入scratch', link: '/scratch/links' },
+        ]
+      },
+      {
+        text: '实战分享',
+        items: [
+          { text: '开发环境配置参考', link: '/share/env'},
+          { text: 'vue服务端渲染', link: '/share/ssr'},
+          { text: '小程序开发总结', link: '/share/mp'},
+          { text: 'go+vue前后端分离实战', link: '/share/iris'},
+          { text: 'uni-app多端开发回顾', link: '/share/uni'},
+          { text: 'koa+vue全栈开发实战', link: '/share/koa'},
         ]
       },
       {
