@@ -4,7 +4,7 @@ module.exports = {
   title:'Bert\'s Blog',
   description:'执着于更高的技术追求！',
   head:[
-    ['link', { rel: 'icon', href: 'favicon.ico' }],
+    ['link', { rel: 'icon', href: 'ltbicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
