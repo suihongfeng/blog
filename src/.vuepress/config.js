@@ -17,9 +17,7 @@ module.exports = {
           { text: '环境配置', link: '/fun/env'},
           { text: 'eslint规则', link: '/fun/eslint'},
           { text: '性能优化', link: '/fun/opt'},
-          { text: '深入webpack', link: '/fun/webpack' },
-          { text: 'webpack随手记', link: '/fun/webpack-note' },
-          { text: 'webpack配置vue', link: '/fun/webpack-vue' },
+          
           { text: '公众号开发总结', link: '/fun/wechat' },
           { text: '深入浅出前端脚手架', link: '/fun/scaffold' },
           { text: '前端基础JS系列', link: '/fun/javascript-basic' },
@@ -33,6 +31,16 @@ module.exports = {
           { text: 'JS高级导读', link: '/dd/1-3' },
           { text: '前端进阶', link: '/fe/vue' },
           { text: '带你面试', link: '/job/sf' },
+        ]
+      },
+      {
+        text: 'webpack知识',
+        items: [
+          { text: 'webpack入门', link: '/webpack/webpack-base' },
+          { text: 'webpack随手记', link: '/webpack/webpack-note' },
+          { text: 'webpack配置vue', link: '/webpack/webpack-vue' },
+          { text: '深入webpack', link: '/webpack/webpack' },
+          { text: 'webpack4 拆包', link: '/webpack/webpack-opt' },
         ]
       },
       {
