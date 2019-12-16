@@ -30,7 +30,7 @@ module.exports = {
           { text: 'DOM教程', link: '/dom/1' },
           { text: 'JS高级导读', link: '/dd/1-3' },
           { text: '前端进阶', link: '/fe/vue' },
-          { text: '带你面试', link: '/job/sf' },
+          // { text: '带你面试', link: '/job/sf' },
         ]
       },
       {
