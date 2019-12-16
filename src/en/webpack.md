@@ -50,6 +50,16 @@ collapsable: true
 - techniques 技术
 - increases 增加
 - exactly 完全
+- specified 指定的
+- provide 提供
+- single 单
+- ensure 确保
+- unique 独特的
+- advanced 先进的
+- complicated 复杂的
+- eventual 最终
+- dynamically 动态
+- variable 变量
 
 ## 配置部分
 - optimization 优化
