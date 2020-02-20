@@ -17,7 +17,6 @@ module.exports = {
           { text: '环境配置', link: '/fun/env'},
           { text: 'eslint规则', link: '/fun/eslint'},
           { text: 'web性能优化', link: '/fun/opt'},
-          
           { text: '公众号开发总结', link: '/fun/wechat' },
           { text: '深入浅出前端脚手架', link: '/fun/scaffold' },
           { text: '移动端优化与踩坑', link: '/phone/optimize' },
@@ -71,10 +70,10 @@ module.exports = {
         text: '常用网址',
         link: '/url/fe'
       },
-      {
-        text: '项目地址',
-        link: 'https://github.com/tianbaoliu'
-      },
+      // {
+      //   text: '项目地址',
+      //   link: 'https://github.com/tianbaoliu'
+      // },
     ],
     sidebar: {
       '/skulpt/': genSidebarConfig('skulpt', ['links', '1']),
