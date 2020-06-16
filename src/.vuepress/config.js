@@ -19,13 +19,21 @@ module.exports = {
           { text: 'web性能优化', link: '/fun/opt'},
           { text: '公众号开发总结', link: '/fun/wechat' },
           { text: '深入浅出前端脚手架', link: '/fun/scaffold' },
-          { text: '移动端优化与踩坑', link: '/phone/optimize' },
           { text: 'markdown语法', link: '/fun/md' },
           { text: '全栈入门', link: '/static/1_1' },
           { text: 'JS入门', link: '/js/1' },
           { text: 'JS高级导读', link: '/dd/1-3' },
           { text: '前端进阶', link: '/fe/vue' },
           // { text: '带你面试', link: '/job/sf' },
+        ]
+      },
+      {
+        text: '日常总结',
+        items: [
+          { text: 'JS方法封装', link: '/often/js' },
+          { text: 'CSS样式封装', link: '/often/css' },
+          { text: 'Scratch篇', link: '/often/scratch1' },
+          { text: '移动端优化与踩坑', link: '/phone/optimize' },
         ]
       },
       {
@@ -56,16 +64,16 @@ module.exports = {
           { text: 'koa+vue全栈开发实战', link: '/share/koa'},
         ]
       },
-      {
-        text: '计算机英语',
-        items: [
-          { text: 'webpack 英文', link: '/en/webpack'},
-          { text: 'npm 英文', link: '/en/npm'},
-          { text: 'skulpt 英文', link: '/en/skulpt'},
-          { text: 'scratch 英文', link: '/en/scratch'},
-          { text: 'ecma 英文', link: '/en/ecma'},
-        ]
-      },
+      // {
+      //   text: '计算机英语',
+      //   items: [
+      //     { text: 'webpack 英文', link: '/en/webpack'},
+      //     { text: 'npm 英文', link: '/en/npm'},
+      //     { text: 'skulpt 英文', link: '/en/skulpt'},
+      //     { text: 'scratch 英文', link: '/en/scratch'},
+      //     { text: 'ecma 英文', link: '/en/ecma'},
+      //   ]
+      // },
       {
         text: '常用网址',
         link: '/url/fe'
@@ -84,7 +92,8 @@ module.exports = {
       '/dom/': genSidebarConfig('JS与浏览器', ['1']),
       '/dd/': genSidebarConfig('导读', ['1-3', '4-6', '7-9', '10-12', '13-15', '16-18', '19-21', '22-25']),
       '/static/': genSidebarConfig('全栈入门',  ['1_1', '1_2', '1_3', '2_1', '2_2', '3_1', '3_2', '3_3', '4_1', '4_2', '4_3', '5_1', '5_2', '5_3', '6_1','6_2', '6_3']),
-      '/phone/': genSidebarConfig('移动端优化与踩坑', ['optimize', 'optimize2', 'mobile-bug']),
+      '/phone/': genSidebarConfig('移动端优化与踩坑', ['optimize', 'optimize2', 'mobile-bug', 'wx-share']),
+      '/often/': genSidebarConfig('Scratch相关技术点', ['scratch1', 'scratch2', 'scratch3', 'scratch4', 'scratch5']),
     }
   }
 }
