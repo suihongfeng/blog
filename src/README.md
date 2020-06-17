@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/shfLogo.png
 actionText: 开始学习
-actionLink: /often/js
+actionLink: /day/1
 features:
 - title: 正直
   details: 热爱并践行优秀中文传统文化，自我的成长来自成就他人！

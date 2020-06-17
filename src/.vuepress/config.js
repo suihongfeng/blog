@@ -12,16 +12,14 @@ module.exports = {
     navBar: true,
     nav: [
       {
-        text: '日常总结',
+        text: '我的笔记',
         items: [
-          { text: 'JS方法封装', link: '/often/js' },
-          { text: 'CSS样式封装', link: '/often/css' },
-          { text: 'Scratch篇', link: '/often/scratch1' },
+          {text: '第一天', link: '/day/1'}
         ]
-      },
+      }
     ],
     sidebar: {
-      '/often/': genSidebarConfig('Scratch相关技术点', ['scratch1', 'scratch2', 'scratch3', 'scratch4', 'scratch5']),
+      
     }
   }
 }
