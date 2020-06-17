@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/ltbLogo.png
+heroImage: /img/shfLogo.png
 actionText: 开始学习
 actionLink: /js/1
 features:

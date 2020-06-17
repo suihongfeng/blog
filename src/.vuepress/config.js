@@ -1,10 +1,10 @@
 module.exports = {
   base: '/blog/',
   dest: 'docs',
-  title:'天宝的博客',
-  description:'执着于更高的技术追求！',
+  title:'Sarah的博客',
+  description:'财务大魔王！',
   head:[
-    ['link', { rel: 'icon', href: 'ltbicon.ico' }],
+    ['link', { rel: 'icon', href: 'shficon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
@@ -12,87 +12,15 @@ module.exports = {
     navBar: true,
     nav: [
       {
-        text: '教程',
-        items: [
-          { text: '环境配置', link: '/fun/env'},
-          { text: 'eslint规则', link: '/fun/eslint'},
-          { text: 'web性能优化', link: '/fun/opt'},
-          { text: '公众号开发总结', link: '/fun/wechat' },
-          { text: '深入浅出前端脚手架', link: '/fun/scaffold' },
-          { text: 'markdown语法', link: '/fun/md' },
-          { text: '全栈入门', link: '/static/1_1' },
-          { text: 'JS入门', link: '/js/1' },
-          { text: 'JS高级导读', link: '/dd/1-3' },
-          { text: '前端进阶', link: '/fe/vue' },
-          // { text: '带你面试', link: '/job/sf' },
-        ]
-      },
-      {
         text: '日常总结',
         items: [
           { text: 'JS方法封装', link: '/often/js' },
           { text: 'CSS样式封装', link: '/often/css' },
           { text: 'Scratch篇', link: '/often/scratch1' },
-          { text: '移动端优化与踩坑', link: '/phone/optimize' },
         ]
       },
-      {
-        text: 'webpack知识',
-        items: [
-          { text: 'webpack入门', link: '/webpack/webpack-base' },
-          { text: 'webpack随手记', link: '/webpack/webpack-note' },
-          { text: 'webpack配置vue', link: '/webpack/webpack-vue' },
-          { text: '深入webpack', link: '/webpack/webpack' },
-          { text: 'webpack4 拆包', link: '/webpack/webpack-opt' },
-        ]
-      },
-      {
-        text: '重点技术',
-        items: [
-          { text: '深入skulpt', link: '/skulpt/1'},
-          { text: '深入scratch', link: '/scratch/links' },
-        ]
-      },
-      {
-        text: '实战分享',
-        items: [
-          { text: '开发环境配置参考', link: '/share/env'},
-          { text: 'vue服务端渲染', link: '/share/ssr'},
-          { text: '小程序开发总结', link: '/share/mp'},
-          { text: 'go+vue前后端分离实战', link: '/share/iris'},
-          { text: 'uni-app多端开发回顾', link: '/share/uni'},
-          { text: 'koa+vue全栈开发实战', link: '/share/koa'},
-        ]
-      },
-      // {
-      //   text: '计算机英语',
-      //   items: [
-      //     { text: 'webpack 英文', link: '/en/webpack'},
-      //     { text: 'npm 英文', link: '/en/npm'},
-      //     { text: 'skulpt 英文', link: '/en/skulpt'},
-      //     { text: 'scratch 英文', link: '/en/scratch'},
-      //     { text: 'ecma 英文', link: '/en/ecma'},
-      //   ]
-      // },
-      {
-        text: '常用网址',
-        link: '/url/fe'
-      },
-      // {
-      //   text: '项目地址',
-      //   link: 'https://github.com/tianbaoliu'
-      // },
     ],
     sidebar: {
-      '/skulpt/': genSidebarConfig('skulpt', ['links', '1']),
-      '/scratch/': genSidebarConfig('深入scratch', ['links', '1', 'sb3']),
-      '/job/': genSidebarConfig('如何面试', ['sf', 'html', 'css', 'js', 'bom', 'node', 'vue', 'mp', 'self']),
-      '/fe/': genSidebarConfig('前端教程', ['vue', 'VueRouter', 'vuex',  'linux', 'vscode', 'node', 'code', 'suanfa', 'ngnix', 'pm2', 'ssh']),
-      '/js/': genSidebarConfig('JS入门', ['1', '2', '3', '4', '5', '6', '7', '8', '9']),
-      '/dom/': genSidebarConfig('JS与浏览器', ['1']),
-      '/dd/': genSidebarConfig('导读', ['1-3', '4-6', '7-9', '10-12', '13-15', '16-18', '19-21', '22-25']),
-      '/static/': genSidebarConfig('全栈入门',  ['1_1', '1_2', '1_3', '2_1', '2_2', '3_1', '3_2', '3_3', '4_1', '4_2', '4_3', '5_1', '5_2', '5_3', '6_1','6_2', '6_3']),
-      '/phone/': genSidebarConfig('移动端优化与踩坑', ['optimize', 'optimize2', 'mobile-bug', 'wx-share']),
       '/often/': genSidebarConfig('Scratch相关技术点', ['scratch1', 'scratch2', 'scratch3', 'scratch4', 'scratch5']),
     }
   }
