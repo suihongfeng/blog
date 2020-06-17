@@ -14,7 +14,8 @@ module.exports = {
       {
         text: '我的笔记',
         items: [
-          {text: '第一天', link: '/day/1'}
+          {text: '第一天', link: '/day/1'},
+          {text: '第二天', link: '/day/2'}
         ]
       }
     ],
